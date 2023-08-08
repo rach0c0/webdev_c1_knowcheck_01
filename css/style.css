@@ -36,7 +36,7 @@ body {
 }
 
 .header-content {
-    color: #F1F1F1;
+    color: #f9fcf9;
     width: 100%;
     max-width: 1000px;
     display: flex;
@@ -48,7 +48,9 @@ body {
 }
 
 .hero-container {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
     height: 80vh;
@@ -73,7 +75,7 @@ body {
 }
 
 .aboutme-content {
-    color: #F1F1F1;
+    color: #fdfbfb;
     width: 100%;
     max-width: 1000px;
     display: flex;
@@ -160,7 +162,7 @@ a:hover, a:active {
     max-width: 260px;
     background: #f08527;
     color: #1b1b27;
-    border: 2px solid #f08527;
+    border: 2px solid #333333;
     border-radius: 12px;
     padding: 12px 24px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -178,9 +180,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
-    color: #F1F1F1;
-    border: 2px solid #666666;
+    background: #74b44a;
+    color: #1b1b27;
+    border: 2px solid #74b44a;
 }
 
 .btn, .btn:visited  {
@@ -188,7 +190,7 @@ a:hover, a:active {
     max-width: 180px;
     background: #f08527;
     color: #1b1b27;
-    border: 2px solid #f08527;
+    border: 2px solid #333333;
     border-radius: 12px;
     padding: 12px 24px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -201,7 +203,7 @@ a:hover, a:active {
 
 .btn:hover, .btn:focus, .btn:active {
     background: #74b44a;
-    color: #F1F1F1;
+    color: #1b1b27;
     border: 2px solid #74b44a;
 }
 
@@ -223,8 +225,10 @@ a:hover, a:active {
 
 .hero-content h1 {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 48px;
-    color: #F1F1F1;
+    font-size: 68px;
+    -webkit-text-fill-color: #aefcff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f8f9fc;
     line-height: 1;
     margin: 0 0 24px 0;
     text-transform: uppercase;
@@ -232,8 +236,11 @@ a:hover, a:active {
 
 .hero-content p {
     font-family: 'Cabin', sans-serif;
-    font-size: 18px;
-    color: #F1F1F1;
+    font-size: 25px;
+    -webkit-text-fill-color: #fcd6d6;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1c2247;
+    text-shadow: #1b1b27 2px 3px 3px;
     line-height: 1.5;
 }
 
