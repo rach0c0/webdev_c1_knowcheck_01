@@ -30,5 +30,5 @@ To Do:
 
 5. BONUS: Add a `Contact` section below the `Projects` section. Add contact information (real/fake use your best judgement), social media, links, embed a google map, etc.
 
-## to view:
+## To view:
 https://rach0c0.github.io/webdev_c1_knowcheck_01/
